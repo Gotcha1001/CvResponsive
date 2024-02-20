@@ -1,0 +1,109 @@
+.gradient-background {
+    background: linear-gradient(300deg, #000000, #151414, #e5e5e7);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .firstpic{
+    border: 1px solid white;
+    border-radius: 40px;
+  }
+
+
+h1 {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    font-weight: bold;
+    color:aliceblue;
+    text-align: center;
+} 
+
+
+
+
+body{
+    background-color: black
+}
+  
+#paragraph{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    
+    
+}
+a {
+  height: 75px;
+  width: 250px;
+  
+}
+#buttonbig{
+  height: 115px;
+  width: 250px;
+}
+
+.flower{
+  height: 200px;
+  width: 200px;
+  border-radius: 30px;
+}
+
+#meds{
+  height: 200px;
+  width: 200px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+#design{
+  color: white;
+  font-size: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#designp{
+  color:white;
+  font-size: 25px;
+
+
+}
+
+.narrow-box{
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.narrow-box p  {
+  display: inline-block;
+  line-height: 1.5; /* Adjust the line height as needed */
+}
+
+#foot{
+padding-top: 20px;
+font-size: 20px;
+}
+
+#skills{
+  color:crimson;
+  font-size: 4rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 10px solid white;
+  border-radius: 30px;
+}
+
+
+
